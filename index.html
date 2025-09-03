@@ -23,7 +23,7 @@
   <header class="sticky top-0 z-40 bg-slate-950/80 backdrop-blur border-b border-white/10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
-        <a href="#home" class="flex items-center gap-3">
+        <span class="flex items-center gap-3">
           <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-500/20 ring-1 ring-indigo-400/30">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-indigo-300"><path d="M12 3a9 9 0 100 18 9 9 0 000-18zm-.75 4.5a.75.75 0 011.5 0v5.19l3.22 1.86a.75.75 0 11-.75 1.3l-3.5-2.02a.75.75 0 01-.37-.65V7.5z"/></svg>
           </span>
@@ -31,15 +31,10 @@
             <p class="font-semibold">Matt Waeldner</p>
             <p class="text-xs text-slate-300">AI Prompt & Automation Consultant</p>
           </div>
-        </a>
+        </span>
         <nav class="hidden md:flex items-center gap-8 text-sm text-slate-200">
-          <a href="#services" class="hover:text-white">Services</a>
-          <a href="#use-cases" class="hover:text-white">Use Cases</a>
-          <a href="#process" class="hover:text-white">Process</a>
-          <a href="#pricing" class="hover:text-white">Pricing</a>
-          <a href="#work" class="hover:text-white">Work</a>
-          <a href="#faq" class="hover:text-white">FAQ</a>
-          <a href="#contact" class="px-3 py-1.5 rounded-lg bg-indigo-500 hover:bg-indigo-400 text-white">Book Intro</a>
+          <span class="hover:text-white">Pricing</span>
+          <span class="px-3 py-1.5 rounded-lg bg-indigo-500 text-white">Call or Text: 207‑400‑4157</span>
         </nav>
         <button id="menuBtn" class="md:hidden inline-flex items-center justify-center rounded-lg p-2 hover:bg-white/5 ring-1 ring-white/10" aria-label="Open menu">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M3.75 6.75h16.5m-16.5 5.25h16.5m-16.5 5.25h16.5"/></svg>
@@ -48,13 +43,8 @@
     </div>
     <div id="mobileMenu" class="md:hidden hidden border-t border-white/10">
       <div class="px-4 py-3 flex flex-col gap-2 text-slate-200">
-        <a href="#services" class="py-2">Services</a>
-        <a href="#use-cases" class="py-2">Use Cases</a>
-        <a href="#process" class="py-2">Process</a>
-        <a href="#pricing" class="py-2">Pricing</a>
-        <a href="#work" class="py-2">Work</a>
-        <a href="#faq" class="py-2">FAQ</a>
-        <a href="#contact" class="py-2">Book Intro</a>
+        <span class="py-2">Pricing</span>
+        <span class="py-2">Call or Text: 207‑400‑4157</span>
       </div>
     </div>
   </header>
@@ -71,11 +61,9 @@
           <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">Turn ChatGPT into a <span class="text-indigo-300">reliable workflow</span>.</h1>
           <p class="mt-5 text-slate-300 text-lg leading-relaxed">I help teams design prompts, SOPs, and automations so AI outputs are consistent, auditable, and ready for production—without slowing people down.</p>
           <div class="mt-8 flex flex-wrap gap-3">
-            <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-indigo-500 hover:bg-indigo-400 text-white font-semibold">
-              <span>Book a free intro call</span>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M13.5 4.5H21v7.5m0-7.5L12 13.5m9-9L10.5 13.5"/></svg>
-            </a>
-            <a href="#work" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-white/15 hover:bg-white/5 font-semibold">See examples</a>
+            <span class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-indigo-500 text-white font-semibold">
+              <span>Call or Text: 207‑400‑4157</span>
+            </span>
           </div>
           <div class="mt-6 flex items-center gap-6 text-sm text-slate-400">
             <div class="flex items-center gap-2"><span class="h-2.5 w-2.5 rounded-full bg-emerald-400"></span> Fast pilot in 7 days</div>
@@ -109,130 +97,6 @@
     </div>
   </section>
 
-  <!-- Services -->
-  <section id="services" class="py-16 sm:py-24 border-t border-white/10 bg-slate-950">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-2xl sm:text-3xl font-bold">Services</h2>
-      <p class="mt-2 text-slate-300 max-w-2xl">Mix and match as needed—most clients start with a 7‑day pilot, then expand to automations and training.</p>
-      <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="card transition bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <h3 class="font-semibold text-lg">Prompt Systems & SOPs</h3>
-          <p class="mt-2 text-slate-300">Design structured prompts, evaluation criteria, and style guides so outputs are consistent and auditable.</p>
-          <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
-            <li>Prompt libraries & templates</li>
-            <li>Rubrics & unit tests for outputs</li>
-            <li>Safety & escalation guidelines</li>
-          </ul>
-        </div>
-        <div class="card transition bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <h3 class="font-semibold text-lg">Automations</h3>
-          <p class="mt-2 text-slate-300">Connect ChatGPT to the tools you use daily.</p>
-          <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
-            <li>Google Sheets/Docs/Drive workflows</li>
-            <li>Gmail drafting & summarization</li>
-            <li>Slack/Notion task assistants</li>
-          </ul>
-        </div>
-        <div class="card transition bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <h3 class="font-semibold text-lg">Web Apps & API Integrations</h3>
-          <p class="mt-2 text-slate-300">Lightweight frontends and APIs for internal tools and client‑facing demos.</p>
-          <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
-            <li>Node/React prototypes</li>
-            <li>Prompt evaluation dashboards</li>
-            <li>Auth, logging, analytics</li>
-          </ul>
-        </div>
-        <div class="card transition bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <h3 class="font-semibold text-lg">Team Training</h3>
-          <p class="mt-2 text-slate-300">Live workshops + playbooks so your team scales the right habits.</p>
-          <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
-            <li>Role‑specific playbooks</li>
-            <li>Prompt patterns & checklists</li>
-            <li>Office hours & Q&A</li>
-          </ul>
-        </div>
-        <div class="card transition bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <h3 class="font-semibold text-lg">Data & Evaluation</h3>
-          <p class="mt-2 text-slate-300">Define success metrics and build small, useful eval sets.
-          </p>
-          <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
-            <li>Golden‑set curation</li>
-            <li>Regression testing</li>
-            <li>Quality dashboards</li>
-          </ul>
-        </div>
-        <div class="card transition bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <h3 class="font-semibold text-lg">Security & Governance</h3>
-          <p class="mt-2 text-slate-300">Guardrails that balance safety with speed.
-          </p>
-          <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
-            <li>Data handling guidelines</li>
-            <li>Access & approvals</li>
-            <li>Audit trails</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Use cases -->
-  <section id="use-cases" class="py-16 sm:py-24 bg-slate-950 border-t border-white/10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-2xl sm:text-3xl font-bold">High‑leverage use cases</h2>
-      <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">Sales & Outreach</p>
-          <p class="text-slate-300 mt-2">Personalized drafts at scale with CRM sync and approvals.</p>
-        </div>
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">Support & Triage</p>
-          <p class="text-slate-300 mt-2">Summaries, suggested replies, and knowledge routing.</p>
-        </div>
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">Ops & Docs</p>
-          <p class="text-slate-300 mt-2">Generate SOPs, QA checklists, and meeting notes with tags.</p>
-        </div>
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">Analytics</p>
-          <p class="text-slate-300 mt-2">SQL drafting, spreadsheet transforms, and quick narratives.</p>
-        </div>
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">Content</p>
-          <p class="text-slate-300 mt-2">Style‑consistent posts, briefs, and outlines with rubrics.</p>
-        </div>
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">Internal Tools</p>
-          <p class="text-slate-300 mt-2">Lightweight React dashboards and API adapters.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Process -->
-  <section id="process" class="py-16 sm:py-24 bg-slate-950 border-t border-white/10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-2xl sm:text-3xl font-bold">Process</h2>
-      <ol class="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-slate-300">
-        <li class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold text-white">1) Discovery</p>
-          <p class="mt-2">Identify high‑ROI tasks, constraints, and success metrics.</p>
-        </li>
-        <li class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold text-white">2) Pilot (7 days)</p>
-          <p class="mt-2">Ship a small, valuable workflow with guardrails and evals.</p>
-        </li>
-        <li class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold text-white">3) Rollout</p>
-          <p class="mt-2">Train the team, collect feedback, add automations.</p>
-        </li>
-        <li class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold text-white">4) Iterate</p>
-          <p class="mt-2">Measure quality, reduce manual checks, expand coverage.</p>
-        </li>
-      </ol>
-    </div>
-  </section>
-
   <!-- Pricing -->
   <section id="pricing" class="py-16 sm:py-24 bg-slate-950 border-t border-white/10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -241,7 +105,7 @@
         <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
           <p class="font-semibold text-white">Intro Workshop</p>
           <p class="text-slate-300 mt-2">2‑hour live session + team playbook.</p>
-          <p class="mt-4 text-3xl font-extrabold">$299</p>
+          <p class="mt-4 text-3xl font-extrabold">$149</p>
           <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
             <li>Prompt patterns & anti‑patterns</li>
             <li>Role‑specific cheatsheets</li>
@@ -251,7 +115,7 @@
         <div class="bg-slate-900/60 ring-2 ring-indigo-500 rounded-2xl p-6">
           <p class="font-semibold text-white">Pilot Sprint (7 days)</p>
           <p class="text-slate-300 mt-2">One high‑impact workflow from idea to launch.</p>
-          <p class="mt-4 text-3xl font-extrabold">$1,500</p>
+          <p class="mt-4 text-3xl font-extrabold">$750</p>
           <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
             <li>Prompt system + rubric</li>
             <li>Automation or mini‑app</li>
@@ -261,7 +125,7 @@
         <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
           <p class="font-semibold text-white">Advisory</p>
           <p class="text-slate-300 mt-2">Ongoing support, reviews, and feature requests.</p>
-          <p class="mt-4 text-3xl font-extrabold">$750/mo</p>
+          <p class="mt-4 text-3xl font-extrabold">$375/mo</p>
           <ul class="mt-3 text-sm text-slate-400 list-disc pl-5 space-y-1">
             <li>Async chat + weekly call</li>
             <li>Quarterly audits</li>
@@ -273,87 +137,16 @@
     </div>
   </section>
 
-  <!-- Work / Portfolio -->
-  <section id="work" class="py-16 sm:py-24 bg-slate-950 border-t border-white/10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-2xl sm:text-3xl font-bold">Example projects</h2>
-      <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <article class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-5">
-          <p class="text-sm text-slate-400">Automation</p>
-          <p class="mt-2 font-semibold">Gmail → Sheets lead parser</p>
-          <p class="mt-1 text-slate-300">Extracts leads from emails, enriches with AI, and posts to CRM.</p>
-        </article>
-        <article class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-5">
-          <p class="text-sm text-slate-400">Prompt System</p>
-          <p class="mt-2 font-semibold">Support reply drafts with rubric</p>
-          <p class="mt-1 text-slate-300">Generates responses with tone/style checks and escalation flags.</p>
-        </article>
-        <article class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-5">
-          <p class="text-sm text-slate-400">Web App</p>
-          <p class="mt-2 font-semibold">Content brief generator</p>
-          <p class="mt-1 text-slate-300">Creates SEO briefs from URLs with outline + CTA variants.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="py-16 sm:py-24 bg-slate-950 border-t border-white/10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-2xl sm:text-3xl font-bold">Kind words</h2>
-      <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <figure class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <blockquote class="text-slate-300">“Clear, practical, and fast. Our reps now send better emails in half the time.”</blockquote>
-          <figcaption class="mt-3 text-sm text-slate-400">— Sales Manager</figcaption>
-        </figure>
-        <figure class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <blockquote class="text-slate-300">“We finally have a repeatable process instead of random prompts.”</blockquote>
-          <figcaption class="mt-3 text-sm text-slate-400">— Ops Lead</figcaption>
-        </figure>
-        <figure class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <blockquote class="text-slate-300">“The 7‑day pilot paid for itself in two weeks.”</blockquote>
-          <figcaption class="mt-3 text-sm text-slate-400">— Founder</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" class="py-16 sm:py-24 bg-slate-950 border-t border-white/10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-2xl sm:text-3xl font-bold">FAQ</h2>
-      <div class="mt-8 grid md:grid-cols-2 gap-6">
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">Do you use client data safely?</p>
-          <p class="mt-2 text-slate-300">Yes—scoped access, no raw PII in prompts, and opt‑in logging. We can route through vendor privacy modes where available.</p>
-        </div>
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">What tools do you integrate?</p>
-          <p class="mt-2 text-slate-300">ChatGPT + Google Workspace, Slack, Notion, simple Node/React apps, and webhook‑friendly services.</p>
-        </div>
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">How fast is the pilot?</p>
-          <p class="mt-2 text-slate-300">Seven calendar days—from scoping to a working workflow and docs.</p>
-        </div>
-        <div class="bg-slate-900/60 ring-1 ring-white/10 rounded-2xl p-6">
-          <p class="font-semibold">Can you train my team?</p>
-          <p class="mt-2 text-slate-300">Absolutely—live workshops + role‑specific playbooks and office hours.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Contact -->
   <section id="contact" class="py-16 sm:py-24 bg-slate-950 border-t border-white/10">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-2xl sm:text-3xl font-bold">Let’s build your first AI win</h2>
       <p class="mt-3 text-slate-300">Book a free 20‑minute intro. I’ll recommend a high‑ROI pilot or tell you if AI isn’t a fit—either way you’ll get value.</p>
       <div class="mt-8 flex flex-wrap justify-center gap-3">
-        <a href="#" class="px-5 py-3 rounded-xl bg-indigo-500 hover:bg-indigo-400 font-semibold">Book on Calendly</a>
-        <a href="mailto:matt.waeldner@du.edu?subject=AI%20Consulting%20Inquiry" class="px-5 py-3 rounded-xl border border-white/15 hover:bg-white/5 font-semibold">Email Matt</a>
-        <a href="https://github.com/" target="_blank" class="px-5 py-3 rounded-xl border border-white/15 hover:bg-white/5 font-semibold">GitHub</a>
+        <span class="px-5 py-3 rounded-xl bg-indigo-500 font-semibold">Call or Text: 207‑400‑4157</span>
+        <a href="https://www.linkedin.com/in/matt-waeldner-8a2387363/" target="_blank" class="px-5 py-3 rounded-xl border border-white/15 hover:bg-white/5 font-semibold">LinkedIn</a>
+        <a href="https://github.com/MattDub2024" target="_blank" class="px-5 py-3 rounded-xl border border-white/15 hover:bg-white/5 font-semibold">GitHub</a>
       </div>
-      <p class="mt-4 text-sm text-slate-400">Prefer LinkedIn? Message me: Matthew J. Waeldner (University of Denver).</p>
     </div>
   </section>
 
@@ -376,8 +169,11 @@
       "addressCountry": "US"
     },
     "description": "Prompt systems, automations, API integrations, and team training to operationalize ChatGPT.",
-    "email": "matt.waeldner@du.edu",
-    "sameAs": ["https://github.com/"]
+    "telephone": "+12074004157",
+    "sameAs": [
+      "https://www.linkedin.com/in/matt-waeldner-8a2387363/",
+      "https://github.com/MattDub2024"
+    ]
   }
   </script>
 
@@ -390,5 +186,38 @@
     // year stamp
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+  <div id="callTextNotice" class="fixed bottom-4 left-1/2 -translate-x-1/2 hidden z-50 px-4 py-2 rounded-xl bg-slate-900/90 ring-1 ring-white/10 text-sm">
+    If nothing opened, your clipboard now has <span class="font-semibold">207‑400‑4157</span>. Paste it into your dialer or messages.
+  </div>
+
+  <script>
+    (function(){
+      const PHONE = '+12074004157';
+      const RAW = '2074004157';
+      function showNotice(){
+        const n = document.getElementById('callTextNotice');
+        if(!n) return; n.classList.remove('hidden');
+        setTimeout(()=>n.classList.add('hidden'), 3500);
+      }
+      async function fallbackCopy(){
+        try{ await navigator.clipboard?.writeText(RAW); }catch(e){}
+        showNotice();
+      }
+      function tryOpen(uri){
+        try {
+          window.location.href = uri;
+          setTimeout(fallbackCopy, 700);
+        } catch(e){ fallbackCopy(); }
+      }
+      // intercept tel: links
+      document.querySelectorAll('a[href^="tel:"]').forEach(a=>{
+        a.addEventListener('click', function(ev){
+          ev.preventDefault();
+          tryOpen(`tel:${PHONE}`);
+        });
+      });
+    })();
+  </script>
 </body>
+</html>
 </html>
